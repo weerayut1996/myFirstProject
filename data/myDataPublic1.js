@@ -1,0 +1,1 @@
+var myDataPublic = '{"name":"วรณัฎฐ์ ดวงแก้ว" , "position":"อาจารย์","office":"กระทรวงศึกษาธิการ" ,"image":"myImage1.jpg"}';

@@ -21,11 +21,10 @@ $( document ).ready(function() {
     
 });
 //-----------------std2-------------------
-//-------------------------std1------------------
 $( document ).ready(function() {
 	$("#actionBtn2").click(function(){
-		var std2 = JSON.parse(myDataPublic1);
-		$("#nameStd2").text(std1.name);
+		var std2 = JSON.parse(myDataPublic2);
+		$("#nameStd2").text(std2.name);
 		$("#detailStd2").html("ตำแหน่ง "+std2.position +" <br>สังกัด " + std2.office);
 		$("#imageStd2").attr("src","images/"+std2.image);
 	});

@@ -43,7 +43,7 @@ $( document ).ready(function() {
 //-----------------std4-------------------
 $( document ).ready(function() {
 	$("#actionBtn2").click(function(){
-		var std4 = JSON.parse(myDataPublic2);
+		var std4 = JSON.parse(myDataPublic4);
 		$("#nameStd4").text(std4.name);
 		$("#detailStd4").html("ตำแหน่ง "+std4.position +" <br>สังกัด " + std4.office);
 		$("#imageStd4").attr("src","images/"+std4.image);

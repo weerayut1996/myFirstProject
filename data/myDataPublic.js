@@ -1,1 +1,1 @@
-var myDataPublic0 = '{"name":"ร.ท.วีรยุทธ ครั่งกลาง" , "position":"อาจารย์","office":"กรมการสื่อสารทหาร" ,"image":"myImage1.jpg"}';
+var myDataPublic = '{"name":"Meteor" , "position":"Meteor is a full-stack JavaScript platform for developing modern web and mobile applications. Meteor includes a key set of technologies for building connected-client reactive applications, a build tool, and a curated set of packages from the Node.js and general JavaScript community","office":"It's fast to build with" ,"image":"myImage1.jpg"}';

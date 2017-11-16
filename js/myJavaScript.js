@@ -12,6 +12,23 @@ $(document).ready(function() {
         event.preventDefault();
     });
 
+    $("#actionBtnPdf").click(function(event) {
+        $("#pdfplace").slideToggle("fast");
+    });
+
+    var myPDF = new PDFObject({ 
+        url: "pdf/test.pdf",
+        id: "myPDF",
+        width: "650px",
+        height: "700px",
+        pdfOpenParams: {
+            navpanes: 1,
+            statusbar: 0,
+            view: "FitH",
+            pagemode: "thumbs"
+        }
+        }).embed('pdfplace');
+
 });
 //-------------------------std1(x)------------------
 $(document).ready(function() {

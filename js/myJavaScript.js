@@ -17,10 +17,10 @@ $(document).ready(function() {
     });
 
     var myPDF = new PDFObject({ 
-        url: "pdf/test.pdf",
+        url: "pdf/meteorEbook.pdf",
         id: "myPDF",
-        width: "650px",
-        height: "700px",
+        width: "100%",
+        height: "800px",
         pdfOpenParams: {
             navpanes: 1,
             statusbar: 0,
